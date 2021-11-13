@@ -105,7 +105,7 @@ const Step1 = ({ onClick }) => {
                 can find the starter blender file we used in most of our shots{' '}
                 <a
                   target='_blank'
-                  href='https://github.com/pmndrs/market-assets/blob/main/starter.blend'
+                  href='https://github.com/3posol/market-assets/blob/main/starter.blend'
                   rel='noreferrer'
                 >
                   in the repo

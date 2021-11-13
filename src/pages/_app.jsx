@@ -50,8 +50,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel='amphtml' href={'https://market.pmnd.rs' + router.asPath} />
-        <link rel='canonical' href={'https://market.pmnd.rs' + router.asPath} />
+        <link rel='amphtml' href={'https://3posol.com' + router.asPath} />
+        <link rel='canonical' href={'https://3posol.com' + router.asPath} />
         <meta name='googlebot' content='follow, index, noarchive' />
         <meta name='robots' content='follow, index, noarchive' />
         <meta name='viewport' content='initial-scale=1,width=device-width' />
@@ -73,40 +73,40 @@ function MyApp({ Component, pageProps }) {
         <link rel='manifest' href='/site.webmanifest' />
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <meta name='apple-mobile-web-app-status-bar-style' content='#000000' />
-        <meta name='apple-mobile-web-app-title' content='PMNDRS Market' />
-        <meta name='application-name' content='PMNDRS Market' />
+        <meta name='apple-mobile-web-app-title' content='3POS Market' />
+        <meta name='application-name' content='3POS Market' />
         <meta name='mobile-web-app-capable' content='yes' />
         <meta name='msapplication-config' content='/browserconfig.xml' />
         <meta name='msapplication-navbutton-color' content='#000000' />
-        <meta name='msapplication-starturl' content='https://market.pmnd.rs/' />
+        <meta name='msapplication-starturl' content='https://3posol.com/' />
         <meta name='msapplication-tilecolor' content='#000000' />
         <meta name='msapplication-tileimage' content='/mstile-144x144.png' />
-        <meta name='msapplication-tooltip' content='PMNDRS Market' />
-        <meta name='title' content='pmndrs market' />
+        <meta name='msapplication-tooltip' content='3POS Market' />
+        <meta name='title' content='3POS Market' />
         <meta
           name='description'
           content="Your home for downloading web-ready 3D assets. Download CC0 models, textures and HDRI's that are web-ready."
         />
 
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='http://market.pmnd.rs/' />
-        <meta property='og:title' content='pmndrs market' />
+        <meta property='og:url' content='http://3posol.com/' />
+        <meta property='og:title' content='3POS Market' />
         <meta
           property='og:description'
           content="Your home for downloading web-ready 3D assets. Download CC0 models, textures and HDRI's that are web-ready."
         />
-        <meta property='og:image' content='http://market.pmnd.rs/share.png' />
+        <meta property='og:image' content='http://3posol.com/share.png' />
 
         <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='http://market.pmnd.rs/' />
-        <meta property='twitter:title' content='pmndrs market' />
+        <meta property='twitter:url' content='http://3posol.com/' />
+        <meta property='twitter:title' content='3POS Market' />
         <meta
           property='twitter:description'
           content="Your home for downloading web-ready 3D assets. Download CC0 models, textures and HDRI's that are web-ready."
         />
         <meta
           property='twitter:image'
-          content='http://market.pmnd.rs/share.png'
+          content='http://3posol.com/share.png'
         />
       </Head>
       <Component user={user} session={session} {...pageProps} />

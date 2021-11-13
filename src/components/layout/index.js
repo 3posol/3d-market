@@ -7,7 +7,7 @@ const Header = () => {
   const title = useStore((s) => s.title)
   return (
     <Head>
-      <title>pmndrs market - {title}</title>
+      <title>3POS Market - {title}</title>
     </Head>
   )
 }
