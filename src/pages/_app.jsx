@@ -104,10 +104,7 @@ function MyApp({ Component, pageProps }) {
           property='twitter:description'
           content="Your home for downloading web-ready 3D assets. Download CC0 models, textures and HDRI's that are web-ready."
         />
-        <meta
-          property='twitter:image'
-          content='http://3posol.com/share.png'
-        />
+        <meta property='twitter:image' content='http://3posol.com/share.png' />
       </Head>
       <Component user={user} session={session} {...pageProps} />
       <Toaster />
